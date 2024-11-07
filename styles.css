@@ -310,6 +310,7 @@ h2 {
 
     #contactPic{
         margin: auto;
+        width: auto;
     }
     
     .contact-info{
