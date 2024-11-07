@@ -313,6 +313,11 @@ h2 {
         width: auto;
     }
     
+    .contact h2{
+        margin: 25px auto;
+    }
+
+
     .contact-info{
         display: flex;
         flex-direction: column;
