@@ -1,0 +1,207 @@
+:root {
+    font-family: "Orbitron";
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Orbitron", "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #ff5e00;
+}
+
+.aboutMe {
+    font-family: "Oxanium", "Roboto"; 
+    font-size: 26px;
+    padding: 50px 130px;
+    border: 3px solid #ff5e00;
+    background-color: rgba(255, 94, 0, 0.2);
+    color: #ff5e00;
+    border-radius: 10px;
+    text-shadow: 0 0 6px #ff5e00, 0 0 15px #ff5e00;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.links img {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.links img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+#displayPic > img {
+    width: 520px;
+    height: 580px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+    background-color: rgba(255, 94, 0, 0.35);
+    border-radius: 12px;
+    border: 2px solid #ff5e00;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img, .card8 img, .card9 img {
+    width: 100%;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card1 img {
+    object-position: 120% 15%;
+}
+
+.card2 img {
+    object-position: 120% 5%;
+}
+
+.card5 img {
+    object-position: 120% 10%;
+}
+
+.card4 img {
+    object-position: 120% 30%;
+}
+
+.card6 img {
+    object-position: 120% 6%;
+}
+
+.card7 img {
+    object-position: 120% 25%;
+}
+
+.card8 img {
+    object-position: 120% 20%;
+}
+
+.card9 img {
+    object-position: 120% 15%;
+}
+
+.card1 img:hover, .card2 img:hover, .card3 img:hover, .card4 img:hover, .card5 img:hover, .card6 img:hover, .card7 img:hover, .card8 img:hover, .card9 img:hover {
+    transform: scale(1.1);
+}
+
+.cards p {
+    font-family: "Oxanium", "Roboto";
+    font-size: 18px;
+    color: #e0e0e0;
+    text-shadow: 0 0 6px #ff5e00, 0 0 15px #ff5e00;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 50px;
+    margin: 40px;
+    color: #ff5e00;
+    text-shadow: 0 0 6px #ff5e00, 0 0 15px #ff5e00;
+}
+
+
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #121212;
+    color: #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: #ff5e00;
+    text-shadow: 0 0 6px #ff5e00, 0 0 15px #ff5e00;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5e00;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
+.social-links img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+
+
